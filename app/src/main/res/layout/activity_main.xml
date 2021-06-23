@@ -10,7 +10,8 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:src="@drawable/dice_1"
+        tools:src="@drawable/dice_1"
+        app:srcCompat="@drawable/empty_dice"
         android:id="@+id/result_imageview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
